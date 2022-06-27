@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(imagenes/fondos/fondo-music01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+body embed {
+    float: right;
+}
+header {
+    background-color: transparent;
+    margin: 0 auto;
+    padding: 15px;
+    color: #666666;
+    font-size: 12px;
+    font-weight: bold;
+    width: 80%;
+}
+header nav {
+    margin-top: 20px;
+    text-align: right;
+    display: inline-block;
+    float:  right;
+}
+header ul {
+    list-style: none;
+    margin-bottom: 15px;
+}
+header nav ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+header nav ul li a{
+    background-color: #666666;
+    color: white;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 10px;    
+}
+footer {
+    background-color: #000000;
+    margin: 0 auto;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
